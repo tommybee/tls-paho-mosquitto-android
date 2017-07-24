@@ -100,23 +100,6 @@
              >
         </activity>
         
-         <!-- Vpn 
-        <service android:name="kr.co.future.frodo.android.service.shared.ProxyService" android:exported="false">
-            <intent-filter>
-                <action android:name="kr.co.future.frodo.android.service.shared.ProxyService" />
-            </intent-filter>
-        </service>
-        <service
-            android:name="kr.co.future.frodo.android.service.shared.TunnelService"
-            android:permission="android.permission.BIND_VPN_SERVICE">
-            <intent-filter>
-                <action android:name="kr.co.future.frodo.android.service.shared.TunnelService" />
-                <action android:name="android.net.VpnService" />
-            </intent-filter>
-        </service>
-        -->
-        <!-- /Vpn -->
-        
         
     </application>
 
